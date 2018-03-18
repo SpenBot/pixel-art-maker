@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html>
+
+
+  <head>
+
+    <meta charset="utf-8">
+    <title>Pixel Art Maker</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+
+  </head>
+
+
+
+
+  <body>
+
+    <h1>Pixel Art Maker</h1>
+
+
+    <div id="mainWindow">
+
+
+      <!-- ///////// CONTROL PANEL /////////////////////////////////////////////// -->
+      <div id="controlPanel">
+
+        <!-- CANVAS BUTTONS -->
+        <div id="buttonsDiv">
+          <button id="button8x8">8 x 8</button>
+          <button id="button16x16">16 x 16</button>
+          <button id="button32x32">32 x 32</button>
+        </div>
+
+
+        <!-- <div id="functButtons">
+          <button class="funcButton" id="toggleGrid">TOGGLE GRID</button>
+          <button class="funcButton" id="undo">UNDO</button>
+        </div> -->
+
+        <!-- COLOR INDICATOR -->
+        <div id="colorIndWindow">
+          <p>Color:</p>
+          <div id="colorInd"></div>
+        </div>
+
+        <!-- COLORS -->
+        <div id="colorPickersGrid">
+          <div class="colorPicker" style="background-color: rgb(0, 0, 0);"></div>
+          <div class="colorPicker" style="background-color: rgb(64, 64, 64);"></div>
+          <div class="colorPicker" style="background-color: rgb(128, 128, 128);"></div>
+          <div class="colorPicker" style="background-color: rgb(192, 192, 192);"></div>
+          <div class="colorPicker" style="background-color: rgb(255, 255, 255);"></div>
+
+          <div class="colorPicker" style="background-color: blue;"></div>
+          <div class="colorPicker" style="background-color: dodgerblue;"></div>
+          <div class="colorPicker" style="background-color: cyan;"></div>
+          <div class="colorPicker" style="background-color: limegreen;"></div>
+          <div class="colorPicker" style="background-color: palegreen;"></div>
+
+          <div class="colorPicker" style="background-color: yellow;"></div>
+          <div class="colorPicker" style="background-color: gold;"></div>
+          <div class="colorPicker" style="background-color: orange;"></div>
+          <div class="colorPicker" style="background-color: red;"></div>
+          <div class="colorPicker" style="background-color: crimson;"></div>
+
+          <div class="colorPicker" style="background-color: navy;"></div>
+          <div class="colorPicker" style="background-color: purple;"></div>
+          <div class="colorPicker" style="background-color: blueviolet;"></div>
+          <div class="colorPicker" style="background-color: deeppink;"></div>
+          <div class="colorPicker" style="background-color: hotpink;"></div>
+
+
+          <div class="colorPicker" style="background-color: sienna;"></div>
+          <div class="colorPicker" style="background-color: peru"></div>
+          <div class="colorPicker" style="background-color: tan;"></div>
+          <div class="colorPicker" style="background-color: bisque;"></div>
+          <div class="colorPicker" style="background-color: linen;"></div>
+        </div>
+
+
+      </div>
+
+
+
+
+      <!-- ///////// CONTROL PANEL /////////////////////////////////////////////// -->
+      <div class="canvas"> </div>
+
+
+    </div>
+
+
+
+    <!-- script -->
+    <script src="script.js"></script>
+
+  </body>
+
+
+
+</html>

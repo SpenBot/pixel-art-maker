@@ -1,0 +1,142 @@
+body {
+  font-family: 'Press Start 2P', sans-serif;
+  text-align: center;
+  background-color: rgb(135, 135, 135);
+  color: white;
+}
+
+h1 {
+  font-size: 26px;
+  margin-top: 10px;
+}
+
+
+
+/* //////// MAIN WINDOW /////////////////////////////////////////// */
+
+#mainWindow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+/* //////// CONTROL PANEL ///////////////////////////////////////// */
+
+#controlPanel {
+  width: 180px;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+
+/* //////// ADJUST CANVAS-SIZE BUTTONS //////////////////////////// */
+
+#buttonsDiv {
+  height: 100px;
+  width: 180px;
+}
+
+button {
+  height: 30px;
+  width: 160px;
+  font-size: 16px;
+  margin: 0 auto 2px;
+}
+
+/* //////// FUNCTION BUTTONS ////////////////////////////////////////////// */
+
+/* .funcButton {
+  height: 20px;
+  width: 100px;
+  font-size: 12px;
+  margin: 0 auto;
+  border-radius: 20px;
+} */
+
+
+/* //////// COLOR INDICATOR /////////////////////////////////// */
+
+#colorIndWindow {
+  display: flex;
+  flex-direction: row;
+  margin: 10px auto;
+  padding-left: 20px;
+}
+
+#colorIndWindow p {
+  font-size: 14px;
+}
+
+#colorInd {
+  height: 40px;
+  width: 40px;
+  margin-left: 10px;
+}
+
+
+/* //////// COLOR PICKERS GRID /////////////////////////////////// */
+
+#colorPickersGrid {
+  height: 160px;
+  width: 165px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.colorPicker {
+  height: 30px;
+  width: 30px;
+  margin: 1px;
+}
+
+/* //////// CANVAS ////////////////////////////////////////////// */
+
+.canvas {
+  margin-top: 10px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#canvas8x8 {
+  height: 336px;
+  width: 336px;
+}
+
+#canvas16x16 {
+  height: 352px;
+  width: 352px;
+}
+
+#canvas32x32 {
+  height: 544px;
+  width: 544px;
+}
+
+
+/* //////// PIXELS ////////////////////////////////////////////// */
+
+.pixel {
+  border: solid 1px rgb(135, 135, 135);
+  background-color: white;
+}
+
+.pixel8x8 {
+  height: 40px;
+  width: 40px;
+}
+
+.pixel16x16 {
+  height: 20px;
+  width: 20px;
+}
+
+.pixel32x32 {
+  height: 15px;
+  width: 15px;
+}
